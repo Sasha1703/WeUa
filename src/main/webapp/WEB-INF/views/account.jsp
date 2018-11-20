@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../../resources/css/account.css">
 	<link rel="stylesheet" href="../../resources/css/hamburger.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
@@ -20,7 +19,6 @@
 					<ul>
 						<li><a href="main.jsp">HOME</a></li>
 						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">CONTACTS</a></li>
 						<li><a href="account.jsp">ACCOUNT</a></li>
 					</ul>
 				</nav>
@@ -40,7 +38,6 @@
 				<ul>
 					<li><a href="main.jsp">HOME</a></li>
 					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">CONTACTS</a></li>
 					<li><a href="account.jsp">ACCOUNT</a></li>
 				</ul>
 			</nav>
@@ -85,7 +82,7 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript" src="../../resources/engine1/jquery.js"></script>
+<script type="text/javascript" src="../../resources/js/jquery.js"></script>
 <script type="text/javascript" src="../../resources/js/script.js"></script>
 </body>
 </html>
