@@ -29,7 +29,7 @@ CREATE TABLE user_roles (
 
 -- Insert data
 
-INSERT INTO users VALUES (1, 'weua', '$2a$11$uSXS6rLJ91WjgOHhEGDx..VGs7MkKZV68Lv5r1uwFu7HgtRn3dcXG');
+INSERT INTO users VALUES (1, 'weua', '$2a$11$uSXS6rLJ91WjgOHhEGDx..VGs7MkKZV68Lv5r1uwFu7HgtRn3dcXG', 'weua.company@gmail.com', '111111111');
 
 INSERT INTO roles VALUES (1, 'ROLE_USER');
 INSERT INTO roles VALUES (2, 'ROLE_ADMIN');
