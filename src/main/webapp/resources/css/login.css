@@ -8,7 +8,7 @@
 }
 @font-face {
 	font-family: Garamond Italic;
-	src: url(../fonts/Garamond_Italic.ttf);
+	src: url(../fonts/Garamond Italic.ttf);
 }
 body {
 	margin: 0px;
@@ -181,6 +181,8 @@ input {
 .facebook {
 	margin-left: -120px;
 }
+
+
 @media(max-width: 480px) {
 	.footer {
 		height: auto;
@@ -231,5 +233,14 @@ input {
 	}
 	.menu {
 		display: none;
+	}
+}
+
+@media(max-width: 900px) {
+	.two_books, .books {
+		display: none;
+	}
+	.buttons {
+		margin: auto;
 	}
 }
