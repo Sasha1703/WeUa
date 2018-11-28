@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>We UA</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
-    <link rel="stylesheet" href="../../resources/css/hamburger.css">
+    <link rel="stylesheet" href="../../resources/css/burger.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="../../resources/js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resources/js/jquery.js"></script>
 </head>
 <body>
 <header>
@@ -20,35 +20,33 @@
     </div>
         <div class="header_uper">
             <div>
-                <span class="We_UA"><a href="main.html">We UA</a></span>
+                <span class="We_UA"><a href="main.jsp">We UA</a></span>
             </div>
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="main.html">HOME</a></li>
+                        <li><a href="main.jsp">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="account.jsp">ACOUNT</a></li>
                     </ul>
                 </nav>
             </div>
         <div class="all-menu-mobile">
-        <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
-        <label for="checkbox4">
-            <div class="hamburger hamburger4">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-                <span class="bar bar4"></span>
-                <span class="bar bar5"></span>
-            </div>
-        </label>
-            <nav class="menu-mobile-dropdown">
-                <ul>
-                    <li><a href="main.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="login.html">ACOUNT</a></li>
-                </ul>
-            </nav>
+            <div class="nav">
+              <a href="#" class="nav__trigger">
+                  <div class="bars"></div>
+              </a>
+            
+            <div class="nav__content">
+                <nav class="nav__list">
+                    <ul>
+                        <li class="nav__item"><a href="main.jsp">Home</a></li>
+                        <li class="nav__item"><a href="#">About</a></li>
+                        <li class="nav__item"><a href="account.jsp">Account</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </div>
         </div>
         </div>
         <div class="banner-text">
@@ -130,7 +128,7 @@
     <div class="footer">
         <div class="footer_block">
             <div class="footer_text">
-                <span><a href="index.html">We UA </a></span>
+                <span><a href="main.jsp">We UA </a></span>
             </div>
                 <div class="footer_content">
                     <span class="contact">Контакти:</span>
@@ -147,10 +145,10 @@
                 <a href="#"><img src="../../resources/img/tviter.png" width="40px" height="40px"></a>
             </div>
             <div class="instagram">
-                <a href="#"><img src="../../resources/img/instagram.png" width="40px" height="40px"></a>
+                <a href="https://instagram.com/weua.company?r=nametag"><img src="../../resources/img/instagram.png" width="40px" height="40px"></a>
             </div>
             <div class="facebook">
-                <a href="#"><img src="../../resources/img/facebook.png" width="40px" height="40px"></a>
+                <a href="https://www.facebook.com/groups/366792644091933/members/"><img src="../../resources/img/facebook.png" width="40px" height="40px"></a>
             </div> 
         </div>  
         </div>
