@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+    // var lis = document.getElementsByClassName("la");
+    // var lal = document.querySelector(".lal");
+
+    // lal.addEventListener("click", changeText);
+
+    // function changeText() {
+    //     lis[0].textContent = "Головна";
+    //     lis[1].textContent = "О нас";
+    //     lis[2].textContent = "Акаунт";
+    //     lis[3].textContent = "WeUa - it is the site for electronic autentification people by in 2018. We work with perfect people in all the world Ukraine"
+    // }
+
 	var navigation = {
     // Variables
     $nav: document.querySelector('.nav'),
