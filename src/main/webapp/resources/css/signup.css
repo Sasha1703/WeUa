@@ -359,4 +359,19 @@ input:valid {
 		font-size: 12px;
 		font-weight: bold;
 	}
+	 *,
+	*:before,
+	*:after {
+  		box-sizing: content-box !important;
+	}
+	.nav {
+  		position: absolute;
+  		top: 0;
+  		right: 30px !important;
+  		bottom: 500px !important;
+  		width: 3.75rem;
+  		transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  		will-change: width;
+  		z-index: 99;
+	}
 }

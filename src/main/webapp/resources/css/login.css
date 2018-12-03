@@ -75,7 +75,7 @@ input {
 }
 .buttons input {
 	display: flex;
-	width: 207px;
+	width: 207px !important;
 	height: 48px;
 	background-color: #07bebe;
 	margin: 30px 0px;
@@ -233,6 +233,21 @@ input {
 	}
 	.menu {
 		display: none;
+	}
+	*,
+	*:before,
+	*:after {
+		box-sizing: content-box !important;
+	}
+	.nav {
+  		position: absolute;
+  		top: 0;
+  		right: 35px !important;
+  		bottom: 500px !important;
+  		width: 3.75rem;
+  		transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  		will-change: width;
+  		z-index: 99;
 	}
 }
 

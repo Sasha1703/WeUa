@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Account</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../../resources/css/account.css">
+	<link rel="stylesheet" href="../../resources/css/about.css">
 	<link rel="stylesheet" href="../../resources/css/burger.css">
+	<title>Login</title>
 </head>
 <body>
 	<header>
@@ -17,23 +17,23 @@
 			<div class="menu">
 				<nav>
 					<ul>
-						<li><a href="main.jsp">HOME</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="account.jsp">ACCOUNT</a></li>
+						<li><a href="main.jsp" class="la">HOME</a></li>
+						<li><a href="about.html" class="la">ABOUT</a></li>
+						<li><a href="account.jsp" class="la">ACOUNT</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="all-menu-mobile">
-        <div class="nav">
-		    <a href="#" class="nav__trigger">
-		        <div class="bars"></div>
-		    </a>
+       		<div class="nav">
+		    	<a href="#" class="nav__trigger">
+		        	<div class="bars"></div>
+		    	</a>
 		    
 		    <div class="nav__content">
 		        <nav class="nav__list">
 		            <ul>
 		                <li class="nav__item"><a href="main.jsp">Home</a></li>
-		                <li class="nav__item"><a href="#">About</a></li>
+		                <li class="nav__item"><a href="about.html">About</a></li>
 		                <li class="nav__item"><a href="account.jsp">Account</a></li>
 		            </ul>
 		        </nav>
@@ -43,14 +43,31 @@
 		  </div>
 		</div>
 	</header>
+	
+	<section class="about">
+		<span class="main_text"><p class="lal">Про нас</p><br><br>
 
-	<div class="buttons">
-		<a href="signup.jsp"><div>SIGN UP</div></a>
-		<span>OR</span>
-		<a href="login.html"><div>LOGIN</div></a>
-	</div>
+			  <p class="la">WeUA - це сайт, для електронної аутенфікації людей  заснований 
+			  в 2018 році. Ми працюємо з прекрасними людьми в усіх кутчках України</p><br><br>
+				
+			  <p class="la">Знайомтеся</p><br><br>
+			  
+			  <p class="la">Наша команда «People from the future»</p><br><br>	
+			</span>
+			<div class="first_fotos">
+				<img src="../../resources/img/Vova.jpeg" alt="Vova">
+				<img src="../../resources/img/Sasha.jpeg" alt="Sasha">
+				<img src="../../resources/img/Vlad.jpeg" alt="Vlad">
+			</div>
+			<div class="second_fotos">
+				<img src="../../resources/img/Julia.jpeg" alt="Julia">
+				<img src="../../resources/img/Vadim.jpeg" alt="Vadim">
+			</div>
+			<br>
+			<span class="text_team la">Маленька команда. Великий результат!</span>
+	</section>
 
-	<footer>
+<footer>
 	<div class="footer">
 		<div class="footer_block">
 			<div class="footer_text">
@@ -80,6 +97,7 @@
 		</div>
 	</div>
 </footer>
+
 <script type="text/javascript" src="../../resources/js/jquery.js"></script>
 <script type="text/javascript" src="../../resources/js/script.js"></script>
 </body>
