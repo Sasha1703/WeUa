@@ -25,9 +25,9 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="main.html">HOME</a></li>
+                        <li><a href="main.jsp">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
-                        <li><a href="account.jsp">ACOUNT</a></li>
+                        <li><a href="account.jsp">ACCOUNT</a></li>
                     </ul>
                 </nav>
             </div>

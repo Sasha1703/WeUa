@@ -47,7 +47,7 @@
 	</header>
 
 	<div class="buttons">
-		<a href="signup.html"><div>SIGN UP</div></a>
+		<a href="signup.jsp"><div>SIGN UP</div></a>
 		<span>OR</span>
 		<a href="login.html"><div>LOGIN</div></a>
 	</div>
