@@ -37,12 +37,18 @@ public class UserController {
         return "registration";
     }
 
-    @RequestMapping(value = "/registration", method = RequestMethod.POST)
-    public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult, Model model) {
+    @RequestMapping(value = "/signup", method = RequestMethod.GET)
+    public String signup(Model model) {
+        model.addAttribute("userForma", new User());
+        return "signup";
+    }
+
+    @RequestMapping(value = "/signup", method = RequestMethod.POST)
+    public String registration(@ModelAttribute("userForma") User userForm, BindingResult bindingResult, Model model) {
         userValidator.validate(userForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
-            return "registration";
+            return "signup";
         }
 
         userService.save(userForm);
@@ -85,8 +91,8 @@ public class UserController {
         return "account";
     }
 
-    @RequestMapping(value = "/signup", method = RequestMethod.GET)
-    public String signup(Model model) {
-        return "signup";
-    }
+//    @RequestMapping(value = "/signup", method = RequestMethod.GET)
+//    public String signup(Model model) {
+//        return "signup";
+//    }
 }
