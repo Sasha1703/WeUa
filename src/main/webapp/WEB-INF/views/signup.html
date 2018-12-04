@@ -17,9 +17,13 @@
 			<div class="menu">
 				<nav>
 					<ul>
-						<li><a href="main.jsp">HOME</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="account.jsp">ACCOUNT</a></li>
+						<li><a href="main.jsp" class="li">Головна</a></li>
+						<li><a href="about.html" class="li">Про нас</a></li>
+						<li><a href="account.jsp" class="li">Акаунт</a></li>
+						<select name="" id="list">
+                            <option value="language">UA</option>
+                            <option value="language">ENG</option>
+                        </select>
 					</ul>
 				</nav>
 			</div>
@@ -32,9 +36,9 @@
 		   	 <div class="nav__content">
 		        <nav class="nav__list">
 		            <ul>
-		                <li class="nav__item"><a href="main.jsp">Home</a></li>
-		                <li class="nav__item"><a href="#">About</a></li>
-		                <li class="nav__item"><a href="account.jsp">Account</a></li>
+		                <li class="nav__item"><a href="main.jsp">Головна</a></li>
+		                <li class="nav__item"><a href="about.html">Про нас</a></li>
+		                <li class="nav__item"><a href="account.jsp">Акаунт</a></li>
 		            </ul>
 		        </nav>
 		   	 </div>    
@@ -45,19 +49,19 @@
 	</header>
 
 	<section class="signup">
-		<span>NEW ACCOUNT</span>
+		<span class="new">Новий акаунт</span>
 		<div class="input_field">
 			<form action="" class="input">
-				<span><img src="../../resources/img/icons8-пользователь-64 (1).png" alt="person"></span><input type="First name" placeholder="First name" required="">
-				<span><img src="../../resources/img/icons8-пользователь-64 (1).png" alt="person2"></span><input type="Last name" placeholder="Last name" required="">
-				<span><img src="../../resources/img/icons8-гугл-плюс-80.png" alt="email"></span><input type="email" placeholder="Email" method="post" required="">
-				<span><img src="../../resources/img/icons8-телефон-64 (1).png" alt="phone"></span><input type="Phone" placeholder="Phone" pattern="38[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" id="tel" required="" id="phone">
-				<span><img src="../../resources/img/icons8-блокировка-2-64.png" alt="password"></span><input type="password" placeholder="Password" method="post" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required="" id="password" name="password">
-				<span><img src="../../resources/img/icons8-блокировка-2-64.png" alt="confirm_password"></span><input type="password" placeholder="Confirm password" method="post" required="" id="confirm" name="confirm_password">
+				<span><img src="../../resources/img/icons8-пользователь-64 (1).png" alt="person"></span><input type="First name" placeholder="Ім'я" required="">
+				<span><img src="../../resources/img/icons8-пользователь-64 (1).png" alt="person2"></span><input type="Last name" placeholder="Прізвище" required="">
+				<span><img src="../../resources/img/icons8-гугл-плюс-80.png" alt="email"></span><input type="email" placeholder="Пошта" method="post" required="">
+				<span><img src="../../resources/img/icons8-телефон-64 (1).png" alt="phone"></span><input type="Phone" placeholder="Номер" pattern="38[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" id="tel" required="" id="phone">
+				<span><img src="../../resources/img/icons8-блокировка-2-64.png" alt="password"></span><input type="password" placeholder="Пароль" method="post" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required="" id="password" name="password">
+				<span><img src="../../resources/img/icons8-блокировка-2-64.png" alt="confirm_password"></span><input type="password" placeholder="Повторіть пароль" method="post" required="" id="confirm" name="confirm_password">
 			</form>
 			<div class="police_confirm"><input type="checkbox"><span>By signip up. I agree to the terms of use</span></div>
 		</div>
-		<a href="#" class="button"><div>SIGNUP</div></a>
+		<a href="#" class="button"><div>Зареєструватися</div></a>
 	</section>
 
 	<footer>

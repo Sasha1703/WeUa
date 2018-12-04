@@ -18,6 +18,15 @@ a {
 	text-decoration: none;
 	color: white;
 }	
+.li {
+	font-size: 15px;
+}
+#list {
+	margin-left: 20px;
+	border-radius: 25px;
+	opacity: 0.5;
+	outline: none;
+}
 .We_UA {
 	display: flex;
 	font-size: 30px;
@@ -169,6 +178,9 @@ p {
 	.menu {
 		display: none;
 	}
+	.We_UA {
+	padding-left: 0px;
+	}
 }
 
 @media(max-width: 1024px) {
@@ -188,6 +200,7 @@ p {
 		flex-direction: row;
 		justify-content: space-around;
 		width: 100%;
+		margin-bottom: 30px;
 	}
 	.footer_img *{
 		margin: 0;
@@ -206,7 +219,6 @@ p {
 	.nav {
   		position: absolute;
   		top: 0;
-  		right: 30px !important;
   		bottom: 570px !important;
   		width: 3.75rem;
   		transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -218,6 +230,9 @@ p {
 	}
 	.second_fotos {
 		width: 55% !important;
+	}
+	.nav__content {
+  		left: 60% !important;	
 	}
 }
 @media(max-width: 1440px) {
