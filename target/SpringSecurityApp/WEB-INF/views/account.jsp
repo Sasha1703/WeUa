@@ -45,7 +45,11 @@
 	</header>
 
 	<div class="buttons">
+<<<<<<< HEAD
 		<a href="signup.jsp"><div>SIGN UP</div></a>
+=======
+		<a href="signup2.jsp"><div>SIGN UP</div></a>
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 		<span>OR</span>
 		<a href="login.html"><div>LOGIN</div></a>
 	</div>

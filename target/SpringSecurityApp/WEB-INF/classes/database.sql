@@ -3,8 +3,12 @@ CREATE TABLE users (
   id       INT          NOT NULL AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
+<<<<<<< HEAD
   email    VARCHAR(255) NOT NULL,
   number   VARCHAR(255) NOT NULL 
+=======
+  email    VARCHAR(255) NOT NULL
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 )
   ENGINE = InnoDB;
 
@@ -29,7 +33,11 @@ CREATE TABLE user_roles (
 
 -- Insert data
 
+<<<<<<< HEAD
 INSERT INTO users VALUES (1, 'weua', '$2a$11$uSXS6rLJ91WjgOHhEGDx..VGs7MkKZV68Lv5r1uwFu7HgtRn3dcXG');
+=======
+INSERT INTO users VALUES (1, 'weua', '$2a$11$uSXS6rLJ91WjgOHhEGDx..VGs7MkKZV68Lv5r1uwFu7HgtRn3dcXG', 'Vikhtistyky@gmail.com');
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 
 INSERT INTO roles VALUES (1, 'ROLE_USER');
 INSERT INTO roles VALUES (2, 'ROLE_ADMIN');

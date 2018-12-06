@@ -9,7 +9,11 @@
 }
 @font-face {
 	font-family: Garamond Italic;
+<<<<<<< HEAD
 	src: url(../fonts/Garamond Italic.ttf);
+=======
+	src: url(../fonts/Garamond_Italic.ttf);
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 }
 body {
 	margin: 0px;

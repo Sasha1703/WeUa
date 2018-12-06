@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>We UA</title>
-    <link rel="stylesheet" href="../../resources/css/style.css">
+    <link rel="stylesheet" href="../../resources/css/signup.css">
+
     <link rel="stylesheet" href="../../resources/css/burger.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script type="text/javascript" src="../../resources/js/jquery.js"></script>
-    <script type="text/javascript" src="../../resources/js/script.js"></script>
 </head>
 <body>
 <header>
@@ -27,13 +26,9 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="main.jsp" class="li">Головна</a></li>
-                        <li><a href="about.html" class="li">Про нас</a></li>
-                        <li><a href="account.jsp" class="li">Акаунт</a></li>
-                        <select name="" id="list" onchange="location = this.value;">
-                            <option value="main.html" >UA</option>
-                            <option value="../views_english/main_eng.html">ENG</option>
-                        </select>
+                        <li><a href="main.jsp">Головна</a></li>
+                        <li><a href="#">Про нас</a></li>
+                        <li><a href="account.jsp">Акаунт</a></li>
                     </ul>
                 </nav>
             </div>
@@ -47,7 +42,7 @@
                 <nav class="nav__list">
                     <ul>
                         <li class="nav__item"><a href="main.jsp">Головна</a></li>
-                        <li class="nav__item"><a href="about.html">Про нас</a></li>
+                        <li class="nav__item"><a href="#">Про нас</a></li>
                         <li class="nav__item"><a href="account.jsp">Акаунт</a></li>
                     </ul>
                 </nav>
@@ -61,7 +56,7 @@
                <div class="search"></div>
             </div>
             
-            <span class="text" lang="ua">Електронна аутентифікація людей</span>
+            <span class="text" lang="ua">Електрона аутентифікація людей</span>
             <div class="button_center"><a class="button" href="#">Додати документ</a></div>
         </div>
     </header>
@@ -161,6 +156,7 @@
     </div>
 </footer>
 
+<script type="text/javascript" src="../../resources/js/script.js"></script>
 
 </body>
 </html>

@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: vladoss
 Created-By: IntelliJ IDEA
 Build-Jdk: 1.8
 
+=======
+Manifest-Version: 1.0
+Built-By: darkness
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_181
+
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877

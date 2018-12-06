@@ -48,5 +48,9 @@ public class UserValidator implements Validator {
         if (!user.getConfirmPassword().equals(user.getPassword())) {
             errors.rejectValue("confirmPassword", "Different.userForm.password");
         }
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "email", "Required");
+        if (user.getEmail().indexOf('@') == -1){
+            errors.rejectValue("email", "NotEmail.userForm.email");
+        }
     }
 }

@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sign UP</title>
-	<link rel="stylesheet" href="../../resources/css/signup.css">
-	<link rel="stylesheet" href="../../resources/css/burger.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../resources/css/about.css">
+	<link rel="stylesheet" href="../../resources/css/burger.css">
+	<title>About</title>
 </head>
 <body>
 	<header>
@@ -21,19 +21,19 @@
 						<li><a href="about.html" class="li">Про нас</a></li>
 						<li><a href="account.jsp" class="li">Акаунт</a></li>
 						<select name="" id="list" onchange="location = this.value;">
-                            <option value="signup.html">UA</option>
-                            <option value="../views_english/signup_eng.html">ENG</option>
+                            <option value="about.html">UA</option>
+                            <option value="../views_english/about_eng.html">ENG</option>
                         </select>
 					</ul>
 				</nav>
 			</div>
 			<div class="all-menu-mobile">
-        	<div class="nav">
+       		<div class="nav">
 		    	<a href="#" class="nav__trigger">
 		        	<div class="bars"></div>
 		    	</a>
 		    
-		   	 <div class="nav__content">
+		    <div class="nav__content">
 		        <nav class="nav__list">
 		            <ul>
 		                <li class="nav__item"><a href="main.jsp">Головна</a></li>
@@ -41,30 +41,37 @@
 		                <li class="nav__item"><a href="account.jsp">Акаунт</a></li>
 		            </ul>
 		        </nav>
-		   	 </div>    
-			</div>
+		    </div>    
+		</div>
 		</div>
 		  </div>
 		</div>
 	</header>
+	
+	<section class="about">
+		<span class="main_text"><p class="lal">Про нас</p><br><br>
 
-	<section class="signup">
-		<span class="new">Новий акаунт</span>
-		<div class="input_field">
-			<form action="" class="input">
-				<span><img src="../../resources/img/user.png" alt="person"></span><input type="First name" placeholder="Ім'я" required="">
-				<span><img src="../../resources/img/user.png" alt="person2"></span><input type="Last name" placeholder="Прізвище" required="">
-				<span><img src="../../resources/img/google.png" alt="email"></span><input type="email" placeholder="Пошта" method="post" required="">
-				<span><img src="../../resources/img/phone.png" alt="phone"></span><input type="Phone" placeholder="Номер" pattern="38[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" id="tel" required="" id="phone">
-				<span><img src="../../resources/img/kastle.png" alt="password"></span><input type="password" placeholder="Пароль" method="post" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required="" id="password" name="password">
-				<span><img src="../../resources/img/kastle.png" alt="confirm_password"></span><input type="password" placeholder="Повторіть пароль" method="post" required="" id="confirm" name="confirm_password">
-			</form>
-			<div class="police_confirm"><input type="checkbox"><span>By signip up. I agree to the terms of use</span></div>
-		</div>
-		<a href="#" class="button"><div>Зареєструватися</div></a>
+			  <p class="la">WeUA - це сайт, для електронної аутенфікації людей  заснований 
+			  в 2018 році. Ми працюємо з прекрасними людьми в усіх кутчках України</p><br><br>
+				
+			  <p class="la">Знайомтеся</p><br><br>
+			  
+			  <p class="la">Наша команда «People from the future»</p><br><br>	
+			</span>
+			<div class="first_fotos">
+				<img src="../../resources/img/Vova.jpeg" alt="Vova">
+				<img src="../../resources/img/Sasha.jpeg" alt="Sasha">
+				<img src="../../resources/img/Vlad.jpeg" alt="Vlad">
+			</div>
+			<div class="second_fotos">
+				<img src="../../resources/img/Julia.jpeg" alt="Julia">
+				<img src="../../resources/img/Vadim.jpeg" alt="Vadim">
+			</div>
+			<br>
+			<span class="text_team la">Маленька команда. Великий результат!</span>
 	</section>
 
-	<footer>
+<footer>
 	<div class="footer">
 		<div class="footer_block">
 			<div class="footer_text">

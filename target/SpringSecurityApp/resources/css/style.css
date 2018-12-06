@@ -9,7 +9,11 @@
 }
 @font-face {
 	font-family: Garamond Italic;
+<<<<<<< HEAD
 	src: url(../fonts/Garamond Italic.ttf);
+=======
+	src: url(../fonts/Garamond_Italic.ttf);
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 }
 body {
 	margin: 0px;
@@ -161,7 +165,10 @@ section {
 }
 .center_text {
 	display: flex;
+<<<<<<< HEAD
 
+=======
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 	flex-direction: row;
 	padding: 20px 0px 0px 30px;	
 }
@@ -465,6 +472,7 @@ h1 {
 		background: none;
 		height: auto;
 	}
+<<<<<<< HEAD
 	.provides_text {
  		display: flex;
  		justify-content: center;
@@ -474,6 +482,11 @@ h1 {
 }
 	.provides {
 		margin-left: 0;
+=======
+	.provides {
+		margin-left: 0;
+		align-items: center;
+>>>>>>> eb47d4ca7c4014fb78883471fd7ea151942e4877
 	}
 	.image {
 		margin: 0;
